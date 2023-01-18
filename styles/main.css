@@ -75,4 +75,47 @@ li {
   color: #fff;
   font-size: 14px;
   font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.hero__text {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 30px;
+}
+.hero__text h5 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #96BB7C;
+}
+.hero__text h1 {
+  font-size: 58px;
+  font-weight: 700;
+  color: #252B42;
+}
+.hero__text h4 {
+  font-size: 20px;
+  font-weight: 400;
+  color: #737373;
+}
+.hero__text button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  padding: 15px 25px;
+  gap: 15px;
+  border: none;
+  background-color: #96BB7C;
+  color: #fff;
+}
+.hero__img {
+  flex: 1;
 }/*# sourceMappingURL=main.css.map */
