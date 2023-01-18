@@ -1,0 +1,59 @@
+@import 'colors';
+@import 'additional';
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 85px;
+    padding: 30px 0;
+    &__logo{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        letter-spacing: 0.1px;
+    }
+    &__nav__btn{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        ul{
+            display: flex;
+            gap: 21px;
+            justify-content: center;
+            align-items: center;
+            li a{
+                color: $sec-text-color;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: 0.2px;
+            }
+        }
+        .btn__wrapper{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 45px;
+            a{
+                color: $primaryColor;
+                font-size: 14px;
+                font-weight: 700;
+                letter-spacing: 0.2px;
+            }
+            button{
+                @include btn;
+                background-color: $primaryColor;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 700;
+            }
+        }
+    }
+}
