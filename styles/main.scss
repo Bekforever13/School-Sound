@@ -1,5 +1,6 @@
 @import 'colors';
 @import 'additional';
+@import 'media_queries';
 
 .container{
     width: 80%;
@@ -55,6 +56,9 @@
                 font-weight: 700;
             }
         }
+    }
+    .bx-menu-alt-right{
+        display: none;
     }
 }
 .hero{
